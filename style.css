@@ -64,9 +64,17 @@ th, td {
         display: block;
         margin: 10px 0;
     }
+    .container{
+        width: 95%;
+        margin: 20px auto;
+    }
+    h1,h2{
+        font-size: 20px;
+    }
 }
 .container {
-    width: 420px;
+    width: 90%;
+    max-width: 420px;
     margin: 60px auto;
     background-color: rgb(241, 196, 154);
     padding: 25px;
@@ -98,5 +106,6 @@ button {
     cursor: pointer;
 }
 button:hover{
-    background-color: white;
+    background-color:rgb(241, 196, 154);
+    color: rgb(73, 22, 22);
 }
